@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+ .img {
+   width: 50%;
+   height: 80%
+ }
+
+ .title {
+   position: fixed;
+   font-family: sans-serif;
+   font-style: italic;
+   font-weight: bolder;
+   color: #b30000;
+   top: 70%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 40px
+  }
+
+.centered {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
