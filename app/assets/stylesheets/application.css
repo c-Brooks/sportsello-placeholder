@@ -14,6 +14,7 @@
  *= require_self
  */
 
+
  .img {
    max-width: 900px;
    height: 80%
@@ -37,3 +38,16 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* For Mobile */
+ @media only screen and (max-device-width: 480px) {
+
+   .img {
+     width: 90%;
+     max-height: 50%;
+   }
+
+   .title {
+     font-size: 70px
+    }
+  }
