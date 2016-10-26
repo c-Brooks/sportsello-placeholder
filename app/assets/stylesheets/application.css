@@ -15,7 +15,7 @@
  */
 
  .img {
-   width: 50%;
+   max-width: 900px;
    height: 80%
  }
 
